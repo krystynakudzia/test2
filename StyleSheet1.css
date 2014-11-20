@@ -7,17 +7,27 @@
 	   font-size:20px;
 	   margin:auto;
 }
-nav { padding:20px;
-	background-color:#6CF;}
+p { clear:both;}
+nav { padding:30px;
+	background-color:#6CF;
+	margin-bottom:15px;}
 h1 { clear:both;}
-
+h2 {margin-bottom:5px;}
+ul{ margin:auto;}
 li { display:block;
      list-style:none;
-     width:200px;
+     width:auto;
+	 padding:0px 50px;
      float:left;}
 a { text-decoration:none;}
 .active { font-weight:bold;}
 .mainHeader{}
-.mainContent{padding:20px;
+.mainContent{ width:65%;
+		padding:20px;
 		background-color:#D6E8E4;
-		margin:auto;}
+		float:left;}
+.sideContent{ width:25%;
+		padding:20px;
+		background-color:#D6E8E4;
+		margin-bottom:15px;
+		float:right;}
